@@ -3,13 +3,13 @@
 This rails api is served as a backend api for fyrfly. It consists of:
 
 ### MODELS: 
+- User:
+This user has registration and session functionalities and can create his rides. A user has many rides
 
 - Ride:
 A ride is provided by the provider. A ride belongs to a provider.
 
-- Provider:
-A user who provide ride service to users. A provider can have one to many
-rides. 
+
 
 
 
