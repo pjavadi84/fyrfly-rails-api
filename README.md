@@ -1,7 +1,34 @@
-# README
+# FyrFly backend api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This rails api is served as a backend api for fyrfly. It consists of:
+
+### MODELS: 
+
+- Ride:
+A ride is provided by the provider. A ride belongs to a provider.
+
+- Provider:
+A user who provide ride service to users. A provider can have one to many
+rides. 
+
+
+
+
+VIEWS: handled by the frontend. please check this repo here: 
+CONTROLLERS:
+
+
+# Associations:
+### Renter:
+User has_many :moods 
+User has_many :experiences, throug: :moods
+
+### Car:
+
+
+### Experience:
+Experience has_many 
+
 
 Things you may want to cover:
 
